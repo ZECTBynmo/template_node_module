@@ -1,0 +1,23 @@
+{
+  "name": "template",
+  "version": "0.0.1",
+  "author": "Mike Vegeto <michael.vegeto@gmail.com>",
+  "description": "A node module called template",
+  "main": "./template",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "keywords": [
+    "template"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://raw.github.com/ZECTBynmo/template/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ZECTBynmo/template.git"
+  }
+}

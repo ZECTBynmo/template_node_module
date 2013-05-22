@@ -1,0 +1,35 @@
+//////////////////////////////////////////////////////////////////////////
+// template - node module main script
+//////////////////////////////////////////////////////////////////////////
+//
+// Main script!
+/* ----------------------------------------------------------------------
+													Object Structures
+-------------------------------------------------------------------------
+	Put common object structures here., so they're easy to look up
+*/
+//////////////////////////////////////////////////////////////////////////
+// Requires
+
+
+//////////////////////////////////////////////////////////////////////////
+// Namespace (lol)
+var SHOW_DEBUG_PRINTS = true;
+var log = function(a) { if(SHOW_DEBUG_PRINTS) console.log(a); };	// A log function we can turn off
+
+
+//////////////////////////////////////////////////////////////////////////
+// Constructor
+var template = function() {
+
+} // end template()
+
+
+//////////////////////////////////////////////////////////////////////////
+// Prints hello world
+template.prototype.hello = function() {
+	console.log( "hello world" );
+} // end template.hello()
+
+
+exports.template = template;
