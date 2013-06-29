@@ -1,0 +1,32 @@
+////////////////////////////////////////////////////////////////////////////////
+// Leto template defs
+{   "image": "http://nodejs.org/images/logos/nodejs-1024x768.png", 
+    "version": "0.0.1",                                                   
+    "github": {                                                           
+        "user": "ZECTBynmo",                                              
+        "repo": "template_node_module"
+    }, 
+
+    ////////////////////////////////////////////////////////////////////////////////
+    // Setup procedure
+    "procedure": [
+
+        // ******************************
+        // Search and Replace
+        // ******************************
+        {   "title": "Change names and paths",
+            "type": "replace",                  
+                                              
+            "keywords": {       
+                "template": "projectName",    
+            },                                 
+                
+            "extensions": [                     
+                ".js",                          
+                ".md",
+                ".json"
+            ]
+        },
+
+    ] // end setup procedure 
+}

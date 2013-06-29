@@ -21,7 +21,7 @@ var log = function(a) { if(SHOW_DEBUG_PRINTS) console.log(a); };	// A log functi
 //////////////////////////////////////////////////////////////////////////
 // Constructor
 var template = function() {
-
+	
 } // end template()
 
 
